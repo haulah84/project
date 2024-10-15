@@ -1,0 +1,32 @@
+body{  
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+.side-nav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #575757;
+    padding-top: 20px;
+}
+.side-nav a{
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: greenyellow;
+    display: block;
+    transition: 0.3s;
+}
+.side-nav a:hover{
+    text-decoration: underline;
+}
+.main{
+    margin-left: 300px;
+    padding: 20px;
+    color: blueviolet;
+}
+h1{
+    padding-left: 400px;
+}
